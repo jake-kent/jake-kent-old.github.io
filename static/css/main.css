@@ -5,12 +5,12 @@ body{
 	width: 100%;
 }
 #summary-pane-wrapper{
-	background: url(/static/images/profile-picture.jpg) no-repeat center center fixed; 
+	background: url(http://jake-kent.github.io/static/images/profile-picture.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 100vh;
+	height: 100vh;http://jake-kent.github.io/static/images/profile-picture.jpg
 }
 #summary-pane{
 	background: rgba(128, 128, 128, 0.6);
