@@ -29,7 +29,7 @@ body{
 	margin-top: 30px;
 }
 #about-pane{
-	height: 100vh;
+	height: 200vh;
 	background: #272727 no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -40,31 +40,126 @@ body{
 	color: white;
 	text-align: center;
 	margin-top: 0px;
-	padding-top: 10vh;
+	padding: 4vh 0;
+}
+#about-NYC{
+	width: 94%;
+	height: 12%;
+	margin: 0 3% 20px 3%;
+	border: white solid 1px;
+    border-radius: 30px;
+    color: white;
+}
+#about-NYC-details{
+	text-align: center;
+
+}
+#about-Wash-U{
+	width: 94%;
+	height: 12%;
+	margin: 0 3% 20px 3%;
+	border: white solid 1px;
+    border-radius: 30px;
+    color: white;
+}
+#about-Wash-U-details{
+	text-align: center;
+
 }
 #about-web-development{
-	width: 96%;
-	height: 70%;
-	padding: 2%;
+	width: 94%;
+	height: 35%;
+	/**padding: 2%;**/
+}
+#about-web-development > div{
+	width: 100%;
+	height: 30%;
+	margin: 0 3% 20px 3%;
+	border: white solid 1px;
+    border-radius: 30px;
+    color: white;
 }
 #about-web-archhacks{
-	width: 100%;
-	height: 50%;
-	margin: 0 2%;
 	background: url(http://jake-kent.github.io/static/images/archhacks-logo.png) no-repeat center;
-    background-size: 50%;
-    border: white solid 1px;
-    border-radius: 30px;
+	background-size: 25%;
 }
 #about-archhacks-details{
 	height: 30%;
 	width: 96%;
 	text-align: center;
 	color: rgb(159, 159 ,159);
-	margin: 2% 2% 0px 2%;
-	margin-top: 15%;
+	margin: 50px 2% 2% 2%;
     background-color: rgba(80, 80, 80, 0.8);
 	border-radius: 20px;
 	padding-top: 2%;
+	font-size: 16px;
+}
+#about-330-details{
+	height: 30%;
+	width: 96%;
+	text-align: center;
+	color: rgb(159, 159 ,159);
+	margin: 50px 2% 2% 2%;
+    background-color: rgba(80, 80, 80, 0.8);
+	border-radius: 20px;
+	padding-top: 2%;
+}
+#about-web-internships{
+    
+}
+#internships-title{
+	text-align: center;
+}
+.about-internship-title{
+	margin-top: 60px;
+}
+#about-web-internships > div{
+	width: 23%;
+	float: left;
+	text-align: center;
+	border: white solid 1px;
+    border-radius: 30px;
+    margin: 0 5px;
+    height: 60%;
+}
+#about-lightmatter{
+	background: url(http://jake-kent.github.io/static/images/lightmatter-logo.svg) no-repeat center center fixed; 
+}
+#about-TFI{
+	background: url(http://jake-kent.github.io/static/images/tfi-logo.jpg) no-repeat center center fixed; 
+}
+#about-democracy{
+	background: url(http://jake-kent.github.io/static/images/democracy-logo.png) no-repeat center center fixed; 
+}
+#about-TDIA{
+	background: url(http://jake-kent.github.io/static/images/TDIA-logo.jpg) no-repeat center center fixed; 
+}
+#about-soccer{
+	width: 94%;
+	height: 12%;
+	margin: 0 3% 20px 3%;
+	border: white solid 1px;
+    border-radius: 30px;
+    color: white;
+}
+#about-soccer-title{
+	text-align: center;
+}
+#about-chinese{
+	width: 94%;
+	height: 12%;
+	margin: 0 3% 20px 3%;
+	border: white solid 1px;
+    border-radius: 30px;
+    color: white;
+}
+#about-chinese-title{
+	text-align: center;
+}
+#experience-skills-pane{
+	height: 100vh;
+}
+#jobs-internships{
+	list-style: none;
 }
 
