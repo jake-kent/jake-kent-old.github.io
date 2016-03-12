@@ -49,10 +49,24 @@ body{
 	border: white solid 1px;
     border-radius: 30px;
     color: white;
+    background: url(http://jake-kent.github.io/static/images/nyc-skyline.jpg) no-repeat center center;
+	background-size: 40%;
 }
-#about-NYC-details{
+#about-NYC:hover h4{
+	visibility: visible;
+}
+#about-NYC-title{
 	text-align: center;
-
+	height: 25%;
+	width: 96%;
+	text-align: center;
+	color: rgb(159, 159 ,159);
+	margin: 60px 2% 2% 2%;
+    background-color: rgba(80, 80, 80, 0.8);
+	border-radius: 20px;
+	padding-top: 2%;
+	font-size: 16px;
+	visibility: hidden;
 }
 #about-Wash-U{
 	width: 94%;
@@ -61,10 +75,23 @@ body{
 	border: white solid 1px;
     border-radius: 30px;
     color: white;
+    background: url(http://jake-kent.github.io/static/images/wash-u-logo.jpg) no-repeat center center;
+	background-size: 40%;
 }
-#about-Wash-U-details{
+#about-Wash-U:hover h4{
+	visibility: visible;
+}
+#about-Wash-U-title{
+	height: 25%;
+	width: 96%;
 	text-align: center;
-
+	color: rgb(159, 159 ,159);
+	margin: 60px 2% 2% 2%;
+    background-color: rgba(80, 80, 80, 0.8);
+	border-radius: 20px;
+	padding-top: 2%;
+	font-size: 16px;
+	visibility: hidden;
 }
 #about-web-development{
 	width: 94%;
