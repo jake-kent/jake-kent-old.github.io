@@ -83,6 +83,9 @@ body{
 	background: url(http://jake-kent.github.io/static/images/archhacks-logo.png) no-repeat center center;
 	background-size: 25%;
 }
+#about-web-archhacks:hover > h4{
+	visibility: visible;
+}
 #about-archhacks-details{
 	height: 30%;
 	width: 96%;
@@ -93,6 +96,7 @@ body{
 	border-radius: 20px;
 	padding-top: 2%;
 	font-size: 16px;
+	visibility: hidden;
 }
 #about-330-details{
 	height: 30%;
@@ -103,9 +107,7 @@ body{
     background-color: rgba(80, 80, 80, 0.8);
 	border-radius: 20px;
 	padding-top: 2%;
-}
-#about-web-internships{
-    
+	font-size: 16px;
 }
 #internships-title{
 	text-align: center;
@@ -116,7 +118,7 @@ body{
     height: 100%;
     font-size: 12px;
 }
-#about-web-internships > div{
+#about-web-internships > div, #about-web-internships > a > div{
 	width: 23%;
 	float: left;
 	text-align: center;
@@ -124,6 +126,9 @@ body{
     border-radius: 30px;
     margin: 0 5px;
     height: 60%;
+}
+#about-web-internships > a > div:hover{
+	background-color: black;
 }
 #about-lightmatter{
 	background: url(http://jake-kent.github.io/static/images/lightmatter-logo.svg) center center no-repeat;
@@ -152,10 +157,19 @@ body{
 	border: white solid 1px;
     border-radius: 30px;
     color: white;
-    background: url(http://jake-kent.github.io/static/images/maccabiah-2015.jpeg) center center no-repeat; 
+    background: url(http://jake-kent.github.io/static/images/maccabiah-2015.jpg) center center no-repeat; 
+    background-size: 100%;
+    background-position-y: 10%;
 }
 #about-soccer-title{
 	text-align: center;
+	color: red;
+}
+.soccer-white{
+	color: white;
+}
+.soccer-blue{
+	color: blue;
 }
 #about-chinese{
 	width: 94%;
