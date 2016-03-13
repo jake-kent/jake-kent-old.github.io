@@ -127,7 +127,7 @@ body{
 }
 #about-web-330{
 	background: url(http://jake-kent.github.io/static/images/CSE330-wallpaper.jpg) no-repeat center center;
-	background-size: 25%;
+	background-size: 32%;
 }
 #about-web-330:hover > h4{
 	visibility: visible;
@@ -154,13 +154,16 @@ body{
     font-size: 12px;
 }
 #about-web-internships > div, #about-web-internships > a > div{
-	width: 23%;
+	width: 22%;
 	float: left;
 	text-align: center;
 	border: white solid 1px;
     border-radius: 30px;
     margin: 0 5px;
     height: 60%;
+}
+#about-web-internships > a:nth-of-type(n+3) > div{
+	float: right;
 }
 #about-web-internships > a > div:hover{
 	background-color: black;
@@ -172,6 +175,7 @@ body{
 #about-lightmatter > h5{
 	background-color: rgba(128, 128, 128, 0.6);
     border-radius: 30px;
+    color: white;
 }
 #about-TFI{
 	background: url(http://jake-kent.github.io/static/images/tfi-logo.png) center center no-repeat; 
@@ -199,6 +203,7 @@ body{
 #about-soccer-title{
 	text-align: center;
 	color: red;
+	background: rgba(0, 0, 0, 0.2);
 }
 .soccer-white{
 	color: white;
