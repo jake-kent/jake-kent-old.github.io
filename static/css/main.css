@@ -14,7 +14,8 @@ body{
 }
 @media (max-device-width: 800px){
 	#summary-pane-wrapper{
-		background-size: 150%;
+		background-size: 50%;
+		background-position-y: 0;
 	}
 }
 #summary-name, #summary-tagline{
