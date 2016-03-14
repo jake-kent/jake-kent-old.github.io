@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	background: #272727;
+	background: rgba(128, 128, 128, 0.6);
 }
 #content{
 	width: 100%;
