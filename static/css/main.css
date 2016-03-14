@@ -12,6 +12,11 @@ body{
 	background-size: cover;
 	height: 100%;
 }
+@media (max-device-width: 800px){
+	#summary-pane-wrapper{
+		background-size: 50%;
+	}
+}
 #summary-name, #summary-tagline{
 	color: white;
 }
