@@ -250,7 +250,7 @@ body{
 #about-soccer-title{
 	text-align: center;
 	color: red;
-	background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.4);
 }
 .soccer-white{
 	color: white;
@@ -263,6 +263,7 @@ body{
 }
 #about-chinese-title{
 	text-align: center;
+	background: rgba(0, 0, 0, 0.4);
 }
 @media (min-device-width: 800px){
 	#about-NYC:hover h4, #about-Wash-U:hover h4, #about-web-archhacks:hover > h4, #about-web-330:hover > h4{
