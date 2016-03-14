@@ -258,6 +258,9 @@ body{
 .soccer-blue{
 	color: blue;
 }
+#about-chinese{
+	background: url(http://jake-kent.github.io/static/images/mandarin-chinese-background.jpg) center center no-repeat; 
+}
 #about-chinese-title{
 	text-align: center;
 }
