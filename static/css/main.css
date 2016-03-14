@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'Trench100';
+    src: url('http://jake-kent.github.io/static/fonts/trench100.otf');
+}
 body{
 	margin: 0;
+	font-family: 'Trench100';
 }
 #content{
 	width: 100%;
@@ -273,9 +278,23 @@ body{
 		visibility: hidden;
 	}
 }
-@media (max-device-width: 800px){
+@media (max-device-width: 800px) and (max-aspect-ratio: 1/1){
 	#about-NYC-details, #about-Wash-U-details, #about-archhacks-details, #about-330-details{
 		visibility: visible;
+	}
+	#about-NYC-details, #about-Wash-U-details{
+		height: 40%;
+	}
+	#about-archhacks-details, #about-330-details{
+		height: 10%;
+	}
+}
+@media (max-device-width: 800px) and (min-aspect-ratio: 1/1){
+	#about-NYC-details, #about-Wash-U-details{
+		height: 120%;
+	}
+	#about-archhacks-details, #about-330-details{
+		height: 25%;
 	}
 }
 @media (max-width: 680px){
