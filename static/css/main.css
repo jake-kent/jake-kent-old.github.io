@@ -2,14 +2,6 @@ body{
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 }
-h1{
-}
-h3{
-	font-size: 14px;
-}
-h4{
-
-}
 h6{
 	font-size: 12px;
 }
@@ -38,6 +30,14 @@ h6{
 }
 #summary-name, #summary-tagline{
 	color: white;
+}
+@media (max-device-width: 800px){
+	#summary-name{
+		font-size: 50px;
+	}
+	#summary-tagline{
+		font-size: 32px;
+	}
 }
 #summary-pane{
 	background: rgba(128, 128, 128, 0.6);
