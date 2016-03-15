@@ -1,21 +1,17 @@
-@font-face {
-    font-family: 'Trench100';
-    src: url('http://jake-kent.github.io/static/fonts/trench100.otf');
-}
 body{
 	margin: 0;
-	font-family: 'Trench100';
+	font-family: 'Open Sans', sans-serif;
 }
 h1{
-	font-weight: 600;
 }
 h3{
-	font-weight: 600;
-	font-size: 24px;
-	letter-spacing: 1px;
+	font-size: 14px;
 }
 h4{
-	font-weight: 400;
+
+}
+h6{
+	font-size: 12px;
 }
 #content{
 	width: 100%;
