@@ -58,11 +58,8 @@ h4{
 }
 #about-pane{
 	height: 200%;
-	background: #272727 no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background: rgba(39, 39, 39, 0.8);
+	background-image: url("http://jake-kent.github.io/static/images/3px-tile.png");
 }
 @media (max-device-width: 680px) and (min-aspect-ratio: 1/1){
 	#about-pane{
@@ -291,7 +288,11 @@ h4{
 }
 #about-chinese-title{
 	text-align: center;
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.6);
+}
+#about-soccer-title, #about-chinese-title{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 @media (min-device-width: 800px){
 	#about-NYC:hover h4, #about-Wash-U:hover h4, #about-web-archhacks:hover > h4, #about-web-330:hover > h4{
@@ -342,6 +343,14 @@ h4{
 }
 #experience-skills-pane{
 	height: 100vh;
+	background-color: rgba(202, 47, 43, 0.9);
+	background-image: url("http://jake-kent.github.io/static/images/argyle.png");
+}
+#experience-skills-title{
+	text-align: center;
+	color: #00C4FF;
+	margin-top: 0px;
+    padding-top: 4vh;
 }
 #jobs-internships{
 	list-style: none;
