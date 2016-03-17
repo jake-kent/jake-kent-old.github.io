@@ -10,10 +10,10 @@ body{
 	**/
 }
 /* general reset for mobile browsers */
-h1, h2, h3, h4, h5, h6 {
-
-font-weight: normal;
-
+@media (max-device-width: 800px){
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: normal !important;
+	}
 }
 h6{
 	font-size: 12px;
@@ -176,7 +176,7 @@ h6{
 	margin: 50px 2% 2% 2%;
 	background-color: rgba(80, 80, 80, 0.8);
 	border-radius: 20px;
-	padding-top: 12px;
+	padding-top: 8px;
 	font-size: 16px;
 }
 #archhacks-credit{
@@ -203,7 +203,7 @@ h6{
 	margin: 50px 2% 2% 2%;
 	background-color: rgba(80, 80, 80, 0.8);
 	border-radius: 20px;
-	padding-top: 12px;
+	padding-top: 8px;
 	font-size: 16px;
 }
 #internships-title{
@@ -287,14 +287,9 @@ h6{
 }
 #about-soccer-title{
 	text-align: center;
-	color: red;
-	background: rgba(0, 0, 0, 0.4);
-}
-.soccer-white{
 	color: white;
-}
-.soccer-blue{
-	color: blue;
+	background: rgba(0, 0, 0, 0.4);
+	font-size: 16px;
 }
 #about-chinese{
 	background: url(http://jake-kent.github.io/static/images/mandarin-chinese-background.jpg) center center no-repeat; 
@@ -302,10 +297,21 @@ h6{
 #about-chinese-title{
 	text-align: center;
 	background: rgba(0, 0, 0, 0.6);
+	font-size: 16px;
 }
 #about-soccer-title, #about-chinese-title{
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
+}
+@media (max-width: 800px){
+	#about-soccer-title, #about-chinese-title{
+		font-size: 16px;
+	}
+}
+@media (min-width: 800px){
+	#about-soccer-title, #about-chinese-title{
+		font-size: 24px !important;
+	}
 }
 @media (min-device-width: 800px){
 	#about-NYC:hover h4, #about-Wash-U:hover h4, #about-web-archhacks:hover > h4, #about-web-330:hover > h4{
@@ -390,5 +396,14 @@ h6{
 }
 .job-details{
 	font-size: 18px;
+}
+@media (max-device-width: 800px){
+	.job{
+		width: 90%;
+		margin-left: 5%;
+	}
+	.job-details{
+		font-size: 14px;
+	}
 }
 
