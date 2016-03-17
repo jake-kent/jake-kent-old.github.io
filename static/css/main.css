@@ -1,6 +1,19 @@
+@font-face{
+	font-family: Trench;
+	src: url(http://jake-kent.github.io/static/fonts/trench100.otf);
+}
 body{
 	margin: 0;
+	font-family: Trench;
+	/**
 	font-family: 'Open Sans', sans-serif;
+	**/
+}
+/* general reset for mobile browsers */
+h1, h2, h3, h4, h5, h6 {
+
+font-weight: normal;
+
 }
 h6{
 	font-size: 12px;
@@ -47,10 +60,13 @@ h6{
 	margin-top: 0px !important;
 	text-align: center;
 	padding-top: 40vh;
+	font-weight: 600;
+	font-size: 50px;
 }
 #summary-tagline{
 	text-align: center;
 	margin-top: 30px;
+	font-size: 32px;
 }
 #about-pane{
 	height: 200%;
@@ -91,6 +107,7 @@ h6{
 	text-align: center;
 	margin-top: 0px;
 	padding: 4vh 0;
+	font-weight: 600;
 }
 #about-NYC{
 	background: url(http://jake-kent.github.io/static/images/nyc-skyline.jpg) no-repeat center center;
@@ -159,7 +176,7 @@ h6{
 	margin: 50px 2% 2% 2%;
 	background-color: rgba(80, 80, 80, 0.8);
 	border-radius: 20px;
-	padding-top: 8px;
+	padding-top: 12px;
 	font-size: 16px;
 }
 #archhacks-credit{
@@ -186,7 +203,7 @@ h6{
 	margin: 50px 2% 2% 2%;
 	background-color: rgba(80, 80, 80, 0.8);
 	border-radius: 20px;
-	padding-top: 8px;
+	padding-top: 12px;
 	font-size: 16px;
 }
 #internships-title{
@@ -338,8 +355,8 @@ h6{
 	}
 }
 #experience-skills-pane{
-	height: 100vh;
-	background-color: rgba(202, 47, 43, 0.9);
+	min-height: 110vh;
+	background-color: rgba(125, 29, 26, 0.9);
 	background-image: url("http://jake-kent.github.io/static/images/argyle.png");
 }
 #experience-skills-title{
@@ -347,8 +364,31 @@ h6{
 	color: #00C4FF;
 	margin-top: 0px;
     padding-top: 4vh;
+    margin-bottom: 0px;
+    padding-bottom: 33px;
+}
+#experience{
+	margin-top: 0px;
+    padding-top: 1px;
+    padding-bottom: 41px;
 }
 #jobs-internships{
 	list-style: none;
+}
+.job{
+	width: 60%;
+    margin-left: 20%;
+    color: #00C4FF;
+}
+.job-company{
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+.job-title-date{
+	margin-top: 0px;
+	font-weight: 600;
+}
+.job-details{
+	font-size: 18px;
 }
 
