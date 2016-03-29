@@ -336,9 +336,9 @@ h6{
 }
 .skill-col{
 	position: relative;
-    height: 30%;
-    width: 33%;
-    float: left;
+	height: 30%;
+	width: 33%;
+	float: left;
 }
 .skill-col-list{
 	text-align: center;
@@ -363,9 +363,9 @@ h6{
 	color: white;
 }
 #experience{
-    padding: 40px 0px;
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 100px;
+	padding: 40px 0px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 100px;
 }
 #experience-title, #skills-title{
 	text-align: center;
@@ -373,8 +373,8 @@ h6{
 }
 #jobs-internships{
 	list-style: none;
-    padding-top: 10px;
-    padding-bottom: 40px;
+	padding-top: 10px;
+	padding-bottom: 40px;
 }
 .job{
 	width: 60%;
@@ -397,15 +397,15 @@ h6{
 	height: 1100px;
 }
 #contact-title{
-    background-color: burlywood;
-    margin: 0px;
-    padding: 35px;
-    text-align: center;
-    color: white;
+	background-color: burlywood;
+	margin: 0px;
+	padding: 35px;
+	text-align: center;
+	color: white;
 }
 #contact-form{
 	width: 100%;
-    height: 1100px;
+	height: 1100px;
 }
 /** mobile styles **/
 @media (max-device-width: 800px){
@@ -432,6 +432,15 @@ h6{
 		#about-archhacks-details, #about-330-details{
 			height: 10%;
 		}
+		#skills{
+			min-height: 30%;
+		}
+		.skill-col-title{
+			font-size: 36px;
+		}
+		.skill{
+			font-size: 24px;
+		}
 	}
 	@media (min-aspect-ratio: 1/1){
 		#summary-pane-wrapper{
@@ -443,6 +452,12 @@ h6{
 		}
 		#about-archhacks-details, #about-330-details{
 			height: 25%;
+		}
+		#about-web-internships{
+			height: 13% !important;
+		}
+		#skills{
+			min-height: 70%;
 		}
 	}
 	#about-title{
