@@ -489,5 +489,8 @@ h6{
 		font-size: 24px;
 	}
 }
+.freebirdFormviewerViewNavigationHeaderButton{
+	display: none;
+}
 
 
