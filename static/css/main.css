@@ -433,7 +433,7 @@ h6{
 			height: 10%;
 		}
 		#skills{
-			min-height: 35%;
+			min-height: 40%;
 		}
 		.skill-col-title{
 			font-size: 36px;
@@ -488,9 +488,6 @@ h6{
 	.job-details{
 		font-size: 24px;
 	}
-}
-.freebirdFormviewerViewNavigationHeaderButton{
-	display: none;
 }
 
 
