@@ -55,6 +55,24 @@ h6{
 	margin-bottom: 25px;
 	margin-left: 40px;
 }
+#navbar-sections{
+	float: left;
+    list-style: none;
+    margin-top: 30px;
+}
+.navbar-section{
+	float: left;
+    margin: 0px 10px;
+    font-size: 18px;
+}
+.navbar-section:hover{
+	cursor: pointer;
+	font-weight: 600;
+}
+.selected{
+	font-size: 22px;
+	color: #790000;
+}
 #summary-pane-wrapper{
 	background: url(http://jake-kent.github.io/static/images/profile-picture.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
