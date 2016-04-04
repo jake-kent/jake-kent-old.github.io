@@ -28,7 +28,7 @@ $(document).ready(function(){
 		$('#navbar-skillexp').removeClass("selected");
 		$('#navbar-contact').addClass("selected");
 	});
-	
+  
 	$(window).scroll(function(){
 		const position = $(window).scrollTop();
 		const aboutpane = $('#about-pane-wrapper').offset().top - 80;
@@ -36,7 +36,7 @@ $(document).ready(function(){
 		const contactpane = $('#contact-pane').offset().top - 80;
 
 		if (position > contactpane){
-			$('#site_navbar').addClass("navbar-fixed navbar-orange").removeClass("navbar-hidden navbar-red");
+			$('#site_navbar').addClass("navbar-fixed navbar-orange").removeClass("navbar-hidden navbar-red navbar-white");
 			$('#navbar-contact').addClass("selected");
 			$('#navbar-skillexp').removeClass("selected");
 
@@ -48,12 +48,12 @@ $(document).ready(function(){
 			$('#navbar-about').removeClass("selected");
 		} 
 		else if (position > aboutpane && position <= skillexppane) {
-			$('#site_navbar').addClass("navbar-fixed navbar-white").removeClass("navbar-hidden navbar-red");
+			$('#site_navbar').addClass("navbar-fixed navbar-white").removeClass("navbar-hidden navbar-red navbar-orange");
 			$('#navbar-about').addClass("selected");
 			$('#navbar-skillexp').removeClass("selected");
 		}
 		else {
-			$('#site_navbar').addClass("navbar-hidden").removeClass("navbar-fixed navbar-white");
+			$('#site_navbar').addClass("navbar-hidden").removeClass("navbar-fixed navbar-white navbar-orange navbar-red");
 		}
 	})
 })
