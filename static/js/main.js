@@ -1,5 +1,19 @@
 $(document).ready(function(){
 	$("#site_music").trigger('play');
+	$("#site-audio-pp").text("Pause");
+	var audio_playing = true;
+	$("#site-audio-pp").click(function(){
+		if(audio_playing){
+			$("#site_music").trigger('pause');
+			$("#site-audio-pp").text("Play");
+			audio_playing = false;
+		}
+		else{
+			$("#site_music").trigger('play');
+			$("#site-audio-pp").text("Pause");
+			audio_playing = true;
+		}
+	});
 	const position = $(window).scrollTop();
 	const aboutpane = $('#about-pane-wrapper').offset().top - 80;
 	const skillexppane = $('#experience-skills-pane').offset().top - 80;
