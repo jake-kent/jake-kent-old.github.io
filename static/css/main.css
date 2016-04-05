@@ -268,8 +268,9 @@ h6{
 @media (max-width: 680px){
 	#archhacks-credit{
 		font-size: 10px;
-		left: 85%;
-		bottom: 15px;
+    	left: 78%;
+    	bottom: -20px;
+    	width: 20%;
 	}
 }
 #about-web-330{
