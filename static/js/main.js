@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	$("#site_music").trigger('play');
 	const position = $(window).scrollTop();
 	const aboutpane = $('#about-pane-wrapper').offset().top - 80;
 	const skillexppane = $('#experience-skills-pane').offset().top - 80;
