@@ -1,7 +1,8 @@
 $(document).ready(function(){
-	$("#site_music").trigger('play');
-	$("#site-audio-pp").text("Pause");
-	var audio_playing = true;
+	$("#site-audio-pp").text("Play");
+	var audio_playing = false;
+	var initial_play = true;
+	var first_scroll = true;
 	$("#site-audio-pp").click(function(){
 		if(audio_playing){
 			$("#site_music").trigger('pause');
@@ -9,6 +10,10 @@ $(document).ready(function(){
 			audio_playing = false;
 		}
 		else{
+			if(initial_play){
+				$("#player-title").text('');
+				$("#player-title").hide("slide", { direction: "right" }, 500);
+			}
 			$("#site_music").trigger('play');
 			$("#site-audio-pp").text("Pause");
 			audio_playing = true;
@@ -63,11 +68,17 @@ $(document).ready(function(){
 			$('#navbar-about').removeClass("selected");
 		} 
 		else if (position > aboutpane && position <= skillexppane) {
+			$("#player-title").text('');
+			$("#player-title").hide("slide", { direction: "right" }, 500);
+			$("#site-audio-pp").hide("slide", { direction: "right" }, 500);
 			$('#site_navbar').addClass("navbar-fixed navbar-white").removeClass("navbar-hidden navbar-red navbar-orange");
 			$('#navbar-about').addClass("selected");
 			$('#navbar-skillexp').removeClass("selected");
 		}
 		else {
+			$("#player-title").text('Some music while you browse?');
+			$("#player-title").show();
+			$("#site-audio-pp").show("slide", { direction: "right" }, 200);
 			$('#site_navbar').addClass("navbar-hidden").removeClass("navbar-fixed navbar-white navbar-orange navbar-red");
 		}
 	})
