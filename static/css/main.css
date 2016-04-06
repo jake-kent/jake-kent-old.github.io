@@ -527,6 +527,13 @@ h6{
 	min-height: 100vh;
 }
 /** mobile styles **/
+/** tablets **/
+@media (max-device-width: 1024px){
+	#site-audio-control{
+		display: none;
+	}
+}
+/** phone **/
 @media (max-device-width: 800px){
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: normal !important;
