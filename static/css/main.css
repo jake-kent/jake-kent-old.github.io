@@ -1,6 +1,6 @@
 @font-face{
 	font-family: Trench;
-	src: url(http://jake-kent.github.io/static/fonts/trench100.otf);
+	src: url(../fonts/trench100.otf);
 }
 body{
 	margin: 0;
@@ -58,7 +58,7 @@ h6{
 	float: left;
 	height: 50px;
 	width: 50px;
-	background: url(http://jake-kent.github.io/static/images/profile-picture.jpg) no-repeat center center; 
+	background: url(../images/profile-picture.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -131,7 +131,7 @@ h6{
 	}
 }
 #summary-pane-wrapper{
-	background: url(http://jake-kent.github.io/static/images/profile-picture.jpg) no-repeat center center fixed; 
+	background: url(../images/profile-picture.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -160,7 +160,7 @@ h6{
 #about-pane{
 	height: 200%;
 	background: rgba(39, 39, 39, 0.8);
-	background-image: url("http://jake-kent.github.io/static/images/3px-tile.png");
+	background-image: url("../images/3px-tile.png");
 }
 @media (max-device-width: 680px) and (min-aspect-ratio: 1/1){
 	#about-pane{
@@ -199,7 +199,7 @@ h6{
 	font-weight: 600;
 }
 #about-NYC{
-	background: url(http://jake-kent.github.io/static/images/nyc-skyline.jpg) no-repeat center center;
+	background: url(../images/nyc-skyline.jpg) no-repeat center center;
 	background-size: 100%;
 }
 #about-NYC-title{
@@ -215,7 +215,7 @@ h6{
 	font-size: 16px;
 }
 #about-Wash-U{
-	background: url(http://jake-kent.github.io/static/images/wash-u-logo.jpg) no-repeat center center;
+	background: url(../images/wash-u-logo.jpg) no-repeat center center;
 	background-size: 40%;
 }
 #about-Wash-U-title{
@@ -230,7 +230,7 @@ h6{
 	font-size: 16px;
 }
 #about-web-archhacks{
-	background: url(http://jake-kent.github.io/static/images/archhacks-logo.png) no-repeat center center;
+	background: url(../images/archhacks-logo.png) no-repeat center center;
 	background-size: 25%;
 }
 @media (min-width: 870px){
@@ -283,7 +283,7 @@ h6{
 	}
 }
 #about-web-330{
-	background: url(http://jake-kent.github.io/static/images/CSE330-wallpaper.jpg) no-repeat center center;
+	background: url(../images/CSE330-wallpaper.jpg) no-repeat center center;
 	background-size: 32%;
 }
 #about-330-details{
@@ -328,7 +328,7 @@ h6{
 }
 
 #about-lightmatter{
-	background: url(http://jake-kent.github.io/static/images/lightmatter-logo.svg) center center no-repeat;
+	background: url(../images/lightmatter-logo.svg) center center no-repeat;
 	background-size: 90%;
 }
 #about-lightmatter > h5{
@@ -337,15 +337,15 @@ h6{
 	color: white;
 }
 #about-TFI{
-	background: url(http://jake-kent.github.io/static/images/tfi-logo.png) center center no-repeat; 
+	background: url(../images/tfi-logo.png) center center no-repeat; 
 	background-size: 75%;
 }
 #about-democracy{
-	background: url(http://jake-kent.github.io/static/images/democracy-logo.png) center center no-repeat; 
+	background: url(../images/democracy-logo.png) center center no-repeat; 
 	background-size: 75%;
 }
 #about-TDIA{
-	background: url(http://jake-kent.github.io/static/images/TDIA-logo.jpg) center center no-repeat; 
+	background: url(../images/TDIA-logo.jpg) center center no-repeat; 
 	background-size: 75%;
 }
 @media (min-width: 1000px){
@@ -357,7 +357,7 @@ h6{
 	}
 }
 #about-soccer{
-	background: url(http://jake-kent.github.io/static/images/maccabiah-2015.jpg) center center no-repeat; 
+	background: url(../images/maccabiah-2015.jpg) center center no-repeat; 
 	background-size: 100%;
 	background-position-y: 10%;
 }
@@ -383,7 +383,7 @@ h6{
 	font-size: 16px;
 }
 #about-chinese{
-	background: url(http://jake-kent.github.io/static/images/mandarin-chinese-background.jpg) center center no-repeat; 
+	background: url(../images/mandarin-chinese-background.jpg) center center no-repeat; 
 }
 #about-chinese-title{
 	text-align: center;
@@ -433,7 +433,7 @@ h6{
 	padding: 20px 0px;
 	min-height: 110vh;
 	background-color: rgba(125, 29, 26, 0.9);
-	background-image: url("http://jake-kent.github.io/static/images/argyle.png");
+	background-image: url("../images/argyle.png");
 }
 #experience-skills-title{
 	text-align: center;
