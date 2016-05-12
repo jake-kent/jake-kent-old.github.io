@@ -90,7 +90,6 @@ h6{
 	font-weight: 600;
 }
 .selected{
-	font-size: 22px;
 	color: #790000;
 }
 #navbar-archhacks{
@@ -98,6 +97,9 @@ h6{
 	float: right;
 	margin-right: 20px;
 	margin-top: 30px;
+}
+#navbar-archhacks:hover{
+	-webkit-filter: contrast(150%); 
 }
 #navbar-linkedin{
 	font-size: 30px;
@@ -210,11 +212,11 @@ h6{
 }
 #about-NYC-title{
 	text-align: center;
-	height: 20%;
+	height: 25%;
 	width: 96%;
 	text-align: center;
 	color: white;
-	margin: 5% 2%;
+	margin: 4% 2%;
 	background-color: rgba(80, 80, 80, 0.8);
 	border-radius: 20px;
 	padding-top: 8px;
@@ -225,11 +227,11 @@ h6{
 	background-size: 40%;
 }
 #about-Wash-U-title{
-	height: 20%;
+	height: 25%;
 	width: 96%;
 	text-align: center;
 	color: white;
-	margin: 5% 2%;
+	margin: 4% 2%;
 	background-color: rgba(80, 80, 80, 0.8);
 	border-radius: 20px;
 	padding-top: 8px;
