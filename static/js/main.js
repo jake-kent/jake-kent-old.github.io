@@ -3,6 +3,35 @@ $(document).ready(function(){
 	var audio_playing = false;
 	var initial_play = true;
 	var first_scroll = true;
+	$("#summary-name").typed({
+          strings: ["Jake Kent"],
+          typeSpeed: 100,
+          backSpeed: 125,
+          backDelay: 2000,
+          showCursor: true,
+    })
+    /*
+    $("#tagline-1").typed({
+          strings: ["Web Developer,"],
+          typeSpeed: 200,
+          showCursor: false,
+    })
+    $("#tagline-2").typed({
+          strings: [" Designer,"],
+          typeSpeed: 200,
+          showCursor: false,
+    })
+    $("#tagline-3").typed({
+          strings: [" Software Engineer,"],
+          typeSpeed: 200,
+          showCursor: false,
+    })
+    $("#tagline-4").typed({
+          strings: [" and Explorer"],
+          typeSpeed: 200,
+          showCursor: false,
+    })
+    */
 	$("#site-audio-pp").click(function(){
 		if(audio_playing){
 			$("#site_music").trigger('pause');

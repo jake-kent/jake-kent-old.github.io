@@ -112,10 +112,7 @@ h6{
 		font-size: 24px;
 	}
 	.navbar-section{
-		font-size: 14px;
-	}
-	.selected{
-		font-size: 18px;
+		font-size: 13px;
 	}
 	#navbar-linkedin{
 		font-size: 24px;
@@ -127,7 +124,7 @@ h6{
 		margin-top: 28px;
 	}
 	.navbar-section{
-		margin: 0px 5px;
+		margin: 0px 3px;
 	}
 	#navbar-sections{
 		padding-left: 10px;
