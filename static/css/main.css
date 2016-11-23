@@ -439,7 +439,7 @@ h6{
 #experience-skills-pane{
 	padding: 20px 0px;
 	min-height: 110vh;
-	background-color: rgba(125, 29, 26, 0.9);
+	background-color: rgb(125, 29, 26);
 	background-image: url("../images/argyle.png");
 }
 #experience-skills-title{
