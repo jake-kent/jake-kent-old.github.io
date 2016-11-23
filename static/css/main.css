@@ -53,6 +53,7 @@ h6{
 	position: fixed;
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius: 20px;
+	z-index: 2;
 }
 #navbar-logo{
 	float: left;
@@ -446,17 +447,17 @@ h6{
 	color: #00C4FF;
 	margin-top: 0px;
 	padding: 30px 0px;
-	background-color: rgba(255, 255, 255, 0.3);
+	/*background-color: rgba(255, 255, 255, 0.3);*/
 	border-radius: 100px;
 	margin-bottom: 20px;
 }
 #skills{
-	padding: 30px 15%;
-	background-color: rgba(255, 255, 255, 0.3);
+	padding: 0px 15% 30px 15%;
+	/*background-color: rgba(255, 255, 255, 0.3);*/
 	border-radius: 100px;
 	margin-bottom: 20px;
 	min-height: 60%;
-	min-height: 400px;
+	min-height: 300px;
 }
 .skill-col{
 	position: relative;
@@ -487,13 +488,14 @@ h6{
 	color: white;
 }
 #experience{
-	padding: 40px 0px;
-	background-color: rgba(255, 255, 255, 0.3);
+	padding-bottom: 40px;
+	/*background-color: rgba(255, 255, 255, 0.3);*/
 	border-radius: 100px;
 }
 #experience-title, #skills-title{
 	text-align: center;
 	color: #00C4FF;
+	margin-bottom: 0px;
 }
 #jobs-internships{
 	list-style: none;
@@ -516,6 +518,13 @@ h6{
 .job-details{
 	font-size: 18px;
 	color: white;
+
+}
+.job a {
+	color: orange;
+}
+.job a:hover {
+	color: #00C4FF;
 }
 #contact-pane{
 	height: 1100px;

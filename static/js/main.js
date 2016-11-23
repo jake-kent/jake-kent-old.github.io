@@ -81,25 +81,25 @@ $(document).ready(function(){
 	}
 	
 	$('#navbar-welcome').click(function(){
-		$(window).scrollTop(0);
+		$('body').animate({scrollTop: 0}, 300);
 		$('#navbar-about').addClass("selected");
 		$('#navbar-skillexp').removeClass("selected");
 		$('#navbar-contact').removeClass("selected");
 	});
 	$('#navbar-about').click(function(){
-		$(window).scrollTop(aboutpane + 10);
+		$('body').animate({scrollTop: aboutpane + 10}, 300);
 		$('#navbar-about').addClass("selected");
 		$('#navbar-skillexp').removeClass("selected");
 		$('#navbar-contact').removeClass("selected");
 	});
 	$('#navbar-skillexp').click(function(){
-		$(window).scrollTop(skillexppane + 10);
+		$('body').animate({scrollTop: skillexppane + 10}, 300);
 		$('#navbar-about').removeClass("selected");
 		$('#navbar-skillexp').addClass("selected");
 		$('#navbar-contact').removeClass("selected");
 	});
 	$('#navbar-contact').click(function(){
-		$(window).scrollTop(contactpane + 30);
+		$('body').animate({scrollTop: contactpane + 30}, 300);
 		$('#navbar-about').removeClass("selected");
 		$('#navbar-skillexp').removeClass("selected");
 		$('#navbar-contact').addClass("selected");
