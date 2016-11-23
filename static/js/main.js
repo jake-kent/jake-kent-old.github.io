@@ -10,28 +10,6 @@ $(document).ready(function(){
           backDelay: 2000,
           showCursor: true,
     })
-    /*
-    $("#tagline-1").typed({
-          strings: ["Web Developer,"],
-          typeSpeed: 200,
-          showCursor: false,
-    })
-    $("#tagline-2").typed({
-          strings: [" Designer,"],
-          typeSpeed: 200,
-          showCursor: false,
-    })
-    $("#tagline-3").typed({
-          strings: [" Software Engineer,"],
-          typeSpeed: 200,
-          showCursor: false,
-    })
-    $("#tagline-4").typed({
-          strings: [" and Explorer"],
-          typeSpeed: 200,
-          showCursor: false,
-    })
-    */
 	$("#site-audio-pp").click(function(){
 		if(audio_playing){
 			$("#site_music").trigger('pause');
@@ -51,15 +29,15 @@ $(document).ready(function(){
 	var position = $(window).scrollTop();
 	var aboutpane = $('#about-pane-wrapper').offset().top - 80;
 	var skillexppane = $('#experience-skills-pane').offset().top - 80;
-	var contactpane = $('#contact-pane').offset().top - 80;
+	/*var contactpane = $('#contact-pane').offset().top - 80;*/
 
-	if (position > contactpane){
+	/*if (position > contactpane){
 		$('#site_navbar').addClass("navbar-fixed navbar-orange").removeClass("navbar-hidden navbar-red navbar-white");
 		$('#navbar-contact').addClass("selected");
 		$('#navbar-skillexp').removeClass("selected");
 
-	}
-	else if (position > skillexppane && position <= contactpane) {
+	}*/
+	if (position > skillexppane) {
 		$('#site_navbar').addClass("navbar-fixed navbar-red").removeClass("navbar-hidden navbar-white navbar-orange");
 		$('#navbar-skillexp').addClass("selected");
 		$('#navbar-contact').removeClass("selected");
@@ -98,26 +76,25 @@ $(document).ready(function(){
 		$('#navbar-skillexp').addClass("selected");
 		$('#navbar-contact').removeClass("selected");
 	});
-	$('#navbar-contact').click(function(){
+	/*$('#navbar-contact').click(function(){
 		$('body').animate({scrollTop: contactpane + 30}, 300);
 		$('#navbar-about').removeClass("selected");
 		$('#navbar-skillexp').removeClass("selected");
 		$('#navbar-contact').addClass("selected");
-	});
+	});*/
 	
 	$(window).scroll(function(){
 		position = $(window).scrollTop();
 		aboutpane = $('#about-pane-wrapper').offset().top - 80;
 		skillexppane = $('#experience-skills-pane').offset().top - 80;
-		contactpane = $('#contact-pane').offset().top - 80;
+		/*contactpane = $('#contact-pane').offset().top - 80;*/
 
-		if (position > contactpane){
+		/*if (position > contactpane){
 			$('#site_navbar').addClass("navbar-fixed navbar-orange").removeClass("navbar-hidden navbar-red navbar-white");
 			$('#navbar-contact').addClass("selected");
 			$('#navbar-skillexp').removeClass("selected");
-
-		}
-		else if (position > skillexppane && position <= contactpane) {
+		}*/
+		if (position > skillexppane) {
 			$('#site_navbar').addClass("navbar-fixed navbar-red").removeClass("navbar-hidden navbar-white navbar-orange");
 			$('#navbar-skillexp').addClass("selected");
 			$('#navbar-contact').removeClass("selected");
@@ -142,6 +119,6 @@ $(document).ready(function(){
 		position = $(window).scrollTop();
 		aboutpane = $('#about-pane-wrapper').offset().top - 80;
 		skillexppane = $('#experience-skills-pane').offset().top - 80;
-		contactpane = $('#contact-pane').offset().top - 80;
+		/*contactpane = $('#contact-pane').offset().top - 80;*/
 	});
 })
